@@ -14,7 +14,6 @@ class User(Base):
     user_name = Column(String(250), nullable=False)
     email = Column(String(250), nullable=False)
     password = Column(String(250), nullable=False)
-    loggin = Column(String(250), nullable=False)
 
 class Character(Base):
     __tablename__ = 'character'
